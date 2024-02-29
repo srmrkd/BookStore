@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: Tahoma, sans-serif;
+    font-size: 24px;
+    color: var(--dark-color);
+    letter-spacing: 1px;
+    --primary-color: #61d68aed;
+    --secondary-color: #3b8a57ed;
+    --dark-color: rgb(63, 63, 63);
+    --light-color: rgb(207, 205, 205);
+    margin: 150px;
+}
+
+#wrapper{
+    
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    padding: 0 0 20px;
+    overflow: hidden;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, .2);
+}
+
+header{
+    background-color: var(--primary-color);
+}
+
+#page-banner{
+    text-align: center;
+    padding: 10px;
+    line-height: 48px;
+}
+
+.title{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#page-banner h1, #page-banner p{
+    margin: 10px 0;
+}
+
+#page-banner input{
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    color: var(--dark-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+#search-books input{
+    font-size: 24px;
+    padding: 6px;
+    width: 400px;
+}
+
+#book-list{
+    padding: 40px; 
+}
+
+#book-list ul{
+    list-style-type: none;
+}
+
+#book-list li{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px;    
+}
+
+#book-list li:hover{
+    border-color: var(--secondary-color);
+}
+
+#book-list .name{
+    border-left: 5px solid  var(--primary-color);
+    padding-left: 10px;
+}
+
+#book-list .name:hover{
+    border-left: 5px solid var(--secondary-color);
+}
+
+#book-list .delete{
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+#book-list .delete:hover{
+    background: var(--dark-color);
+    
+}
+
+#add-book{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.hide-box{
+    text-align: left;
+    display: block;
+    padding: 40px;
+    margin: 20px;
+}
+
+#add-book input{
+    font-size: 20px;
+    width: 300px;
+    padding: 5px 5px;
+    border-radius: 4px 0 0 4px;
+}
+
+#add-book button{
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    padding: 5px 24px;
+    font-size: 20px;
+    border-radius: 0 4px 4px 0;
+}
+
+#add-book button:hover{
+    cursor: pointer;
+    background-color: var(--dark-color);
+}
