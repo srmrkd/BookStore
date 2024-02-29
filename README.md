@@ -1,1 +1,1 @@
-# A Simple BookStore with vanilla JavaScript
+## A Simple BookStore with vanilla JavaScript
